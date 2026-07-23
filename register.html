@@ -1,0 +1,128 @@
+<!-- Developed With ❤️  by Fatemeh Shirafkan -->
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="stylesheet" href="./assets/CSS/CSS reset/reset.css">
+     
+    <link rel="stylesheet" href="./assets/CSS/Bootstrap/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="./assets/CSS/Bootstrap/bootstrap.min.css">
+     
+    <link rel="stylesheet" href="./assets/CSS/Fonts/fontiran.css">
+     
+    <link rel="stylesheet" href="./assets/CSS/Styles/signUp.css">
+    <link rel="stylesheet" href="./assets/CSS/Styles/mainStyle.css">
+
+    <title>AWEI store</title>
+</head>
+<body>
+
+    <section class="title__section container">
+        <div class="row">
+            <h1 class="page__title">حساب کاربری من</h1>
+        </div>
+        <nav class="row">
+            <ul class="breadCrumb">
+                <li><a href="./mainPage.html" class="breadCrumb__previous__page">خانه</a></li>
+                <li>/ حساب کاربری من</li>
+            </ul>
+        </nav>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row forms__box">
+                <div class="col-sm-5 form__login">
+                    <h2 class="forms__box-title">ورود</h2>
+                    <form action="">
+                        <div class="login__form__username">
+                            <label class="login__form__label--mb" for="login-username">
+                                نام کاربری  
+                                <span class="required">*</span>
+                            </label>
+                            <input id="login-username" type="text" class="login__form__input">
+                        </div>                        
+                        <div class="login__form__password">
+                            <label class="login__form__label--mb" for="login-password">
+                                گذرواژه
+                                <span class="required">*</span>
+                            </label>
+                            <input id="login-password" type="password" class="login__form__input">
+                        </div>                        
+                        <div class="login__form__extraItems">
+                            <div class="login__form__rememberUser">
+                                <input type="checkbox" name="" id="login-rememberUser">
+                                <label for="login-rememberUser"> مرا به خاطر بسپار</label>    
+                            </div>
+                            <a class="login__form__forgettingPass" href="">گذرواژه خود را فراموش کرده اید؟</a>
+                        </div>
+                        <div class="login__form__submit">
+                            <button type="submit" class="login__form__submit--style">ورود
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-1 form__separator">
+                    <span class="form__separator__content">یا</span>
+                </div>
+                <div class="col-sm-5 form__register">
+                    <h2 class="forms__box-title">عضویت</h2>
+                    <form action="">
+
+                        <div class="register__form__username">
+                            <label class="register__form__label--mb" for="register-username">
+                                نام کاربری  
+                                <span class="required">*</span>
+                            </label>
+                            <input id="register-username" type="text" class="register__form__input">
+                        </div>
+
+                        <div class="register__form__email">
+                            <label class="register__form__label--mb" for="register-email">
+                                آدرس ایمیل    
+                                <span class="required">*</span>
+                            </label>
+                            <input id="register-email" type="text" class="register__form__input">
+                        </div>                        
+                        
+                        <div class="register__form__password">
+                            <label class="register__form__label--mb" for="register-password">
+                                گذرواژه
+                                <span class="required">*</span>
+                            </label>
+                            <input id="register-password" type="password" class="register__form__input">
+                        </div>    
+
+                        <div>
+                            <p class="privacy-policy--text">اطلاعات شخصی شما برای پردازش سفارش شما استفاده می‌شود، و پشتیبانی از تجربه شما در این وبسایت، و برای اهداف دیگری که در 
+                                <a href="./404Error.html" class="privacy-policy--link" target="_blank">سیاست حفظ حریم خصوصی
+                                </a> توضیح داده شده است.
+                            </p>                        
+                        </div>
+
+                        <div>
+                            <button type="submit" class="register__form__submit--style">عضویت
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- BLURE DARK LAYER -->
+    <div class="layer"></div>
+
+    <script src="./assets/JS/header.js"></script>
+    
+    <script src="./assets/JS/footer.js"></script>
+
+    <script src="./assets/JS/headerCart.js"></script>
+
+    
+</body>
+</html>
