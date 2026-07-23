@@ -1,0 +1,111 @@
+<!-- Developed With ❤️  by Fatemeh Shirafkan -->
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="stylesheet" href="./assets/CSS/CSS reset/reset.css">
+     
+    <link rel="stylesheet" href="./assets/CSS/Bootstrap/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="./assets/CSS/Bootstrap/bootstrap.min.css">
+     
+    <link rel="stylesheet" href="./assets/CSS/Fonts/fontiran.css">
+    
+    <link rel="stylesheet" href="./assets/CSS/Styles/cart.css">
+    <link rel="stylesheet" href="./assets/CSS/Styles/mainStyle.css">
+
+    <title>AWEI store</title>
+</head>
+<body>
+    
+    <section class="title__section container">
+        <div class="row">
+            <h1 class="col page__title">سبد خرید </h1>
+        </div>
+        <nav class="row">
+            <ul class="col breadCrumb">
+                <li><a href="./mainPage.html" class="breadCrumb__previous__page">خانه</a></li>
+                <li>/ سبد خرید   </li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="empty__alert__cart-page">
+        <div class="container">
+            <div class="row">
+                <div class="col empty__alert">
+                    <div class="empty__alert__icon">
+                            <svg width="230px" height="230px" viewBox="0 0 32 32"  fill="#000">
+                                <circle style="fill:none;stroke:#000;stroke-width:2;stroke-miterlimit:10;" cx="22" cy="24" r="2"></circle>
+                                <circle style="fill:none;stroke:#000;stroke-width:2;stroke-miterlimit:10;" cx="13" cy="24" r="2"></circle>
+                                <path d="M25.658,10l-2.422,9H10.781L8.159,8.515C7.937,7.625,7.137,7,6.219,7H4C3.448,7,3,7.448,3,8c0,0.552,0.448,1,1,1h2.219
+                                l2.621,10.485C9.063,20.375,9.863,21,10.781,21h12.455c0.902,0,1.692-0.604,1.93-1.474L27.764,10H25.658z"></path>
+                                <line style="fill:none;stroke:#000;stroke-width:2;stroke-miterlimit:10;" x1="17" y1="7" x2="17" y2="15"></line>
+                                <line style="fill:none;stroke:#000;stroke-width:2;stroke-miterlimit:10;" x1="21" y1="11" x2="13" y2="11"></line>
+                            </svg>                    
+                        </div>
+                    <div class="empty__alert__text">
+                        <h2 class="empty__alert__text--style">
+                            محصولی به لیست علاقه مندی شما هنوز اضافه نشده است.
+                        </h2>
+                    </div>
+                    <div class="empty__alert__btn">
+                        <a href="./store.html?id=فروشگاه" class="back__store">
+                            بازگشت به فروشگاه
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!---- SHOPPING CART TABLE ---->
+    <section class="cart-page__items">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-8">
+                    <table class="cart-product-table">
+                        <thead>
+                            <tr>
+                                <th class="remove-product"></th>
+                                <th class="product-img"></th>
+                                <th class="product-name">محصول</th>
+                                <th class="product-price">قیمت</th>
+                                <th class="product-count">تعداد</th>
+                            </tr>
+                        </thead>
+                        <tbody class="cart-product-table-cards">
+                            
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-12 col-xl-4">
+                    <div class="total-price__card">
+                        <h2 class="total-price__card__title">جمع کل سبد خرید</h2>
+                        <div class="total-price__card__box">
+                            <span>مجموع</span>
+                            <span class="cart-page-totalPrice">37,897,000 تومان</span>
+                        </div>
+                        <div class="total-price__card__proceed-to-checkout">
+                            <a class="total-price__card__proceed-to-checkout__btn" href="#">ادامه جهت تسویه حساب</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLURE DARK LAYER -->
+    <div class="layer"></div>
+
+    <script src="./assets/JS/header.js"></script>
+    
+    <script src="./assets/JS/footer.js"></script>
+
+    <script src="./assets/JS/headerCart.js"></script>
+
+    <script src="./assets/JS/cartPage.js"></script>
+</body>
+</html>
